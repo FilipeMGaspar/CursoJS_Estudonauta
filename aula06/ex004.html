@@ -18,6 +18,10 @@
             n1.toFixed(2)  //Número de casas décimais
 
             n1.toFixed(2).replace(".",",") // subtitui o   .   pela   ,
+
+            n1.toLocaleString('pt-PT', {style: 'currency', currency: 'EUR'});
+
+            document.write(`<br><br> ${n1}`);
     </script>
 </body>
 </html>
